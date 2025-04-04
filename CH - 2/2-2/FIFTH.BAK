@@ -1,15 +1,21 @@
 #include<stdio.h>
 #include<conio.h>
 
+#define PI 3.14
+#define P printf
+#define S scanf
+
 main() {
-	float sum, r , pi = 3.14;
+	float a, sum;
+
 	clrscr();
 
-	printf("Enter Radius : ");
-	scanf("%f" , &r);
-	sum = pi * r * r;
+	P("Enter Radius : ");
+	S("%f",&a);
 
-	printf("The Area of the circle is %.2f" , sum);
+	sum = 2 * PI * a;
+
+	P("Answer = %.2f",sum);
 
 	getch();
-};
+}
