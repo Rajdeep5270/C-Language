@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+
+#define p printf
+#define s scanf
+#define c clrscr
+#define g getch
+
+main() {
+	int num, positive, negative, neutral;
+	c();
+
+	p("Enter Any Number to Find its type : ");
+	s("%d",&num);
+
+	g();
+}
