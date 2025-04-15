@@ -5,17 +5,20 @@
 #define s scanf
 
 main() {
-	long int salary, hra = 10, da = 5, ta = 8, grossSalary;
+	long int salary, hra, da, ta, grossSalary;
 	clrscr();
 
 	p("Enter Your Base Salary : ");
 	s("%ld",&salary);
 
-	p("House Rent Allowance = %ld\n",salary * hra / 100);
+	hra = salary * 10 / 100;
+	p("House Rent Allowance = %ld\n",hra);
 
-	p("Dearness Allowance = %ld\n",salary * da / 100);
+	da = salary * 5 / 100;
+	p("Dearness Allowance = %ld\n",da);
 
-	p("Tax Allowance = %ld\n\n",salary * ta / 100);
+	ta = salary * 8 / 100;
+	p("Tax Allowance = %ld\n\n",ta);
 
 	grossSalary = salary + hra + da + ta;
 
