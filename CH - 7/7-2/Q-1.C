@@ -3,43 +3,46 @@
 
 #define p printf
 #define s scanf
-#define r clrscr
-#define g getch
 
 main() {
 	int a, b, c;
-	r();
+	clrscr();
 
-	p("Enter First Number : ");
+	p("Enter First Value : ");
 	s("%d",&a);
 
-	p("Enter Second Number : ");
+	p("Enter Second Value : ");
 	s("%d",&b);
 
-	p("Enter Third Number : ");
+	p("Enter Third Value : ");
 	s("%d",&c);
 
-	if(a > b) {
-		if(a > c) {
-			p("%d is Greater",a);
-		}
-		else{
-			p("%d is Greater",c);
-		}
+	if(a == b && b == c && c == a) {
+		clrscr();
+		p("All Are Same...");
+	}
+	else if(a == b || b == c || c == a) {
+		clrscr();
+		p("Both Are Equal...");
 	}
 	else{
-		if(b > c) {
-			if(b > a) {
-				p("%d is Greater",b);
+		if(a > b) {
+			if(a > c) {
+				p("%d is Maximum",a);
 			}
 			else{
-				p("%d is Greater",a);
+				p("%d is Maximum",c);
 			}
 		}
 		else{
-			p("%d is Greater",c);
+			if(b > c) {
+				p("%d is Maximum",b);
+			}
+			else{
+				p("%d is Maximum",c);
+			}
 		}
 	}
 
-	g();
+	getch();
 }
