@@ -1,0 +1,136 @@
+#include<stdio.h>
+#include<conio.h>
+
+main() {
+	int n;
+	char ch, hn, guj;
+	clrscr();
+
+	printf("\n\nWelcome to Telecom Service\n\n");
+
+	printf("Press 1 For English\n");
+	printf("Press 2 For Hindi\n");
+	printf("Press 3 For Gujarati\n");
+
+	printf("Enter Your Choice\n");
+	scanf("%d",&n);
+
+	switch(n) {
+		case 1:
+			clrscr();
+			printf("\n\nIn English\n\n");
+
+			printf("Press A For Internet Recharge\n");
+			printf("Press B For Top-up Recharge\n");
+			printf("Press C For Special Recharge\n");
+
+			printf("Enter Your Choice : ");
+
+			fflush(stdin);
+			scanf("%c",&ch);
+
+			switch(ch) {
+				case 'A':
+				case 'a':
+					clrscr();
+					printf("You Have Successfully done a Internet Recharge.");
+					break;
+
+				case 'B':
+				case 'b':
+					clrscr();
+					printf("You Have Successfully done a Top-up Recharge.");
+					break;
+
+				case 'C':
+				case 'c':
+					clrscr();
+					printf("You Have Successfully done a Special Recharge.");
+					break;
+			}
+			break;
+
+		case 2:
+			clrscr();
+			printf("\n\nHindi Menu\n\n");
+
+			printf("Internet Recharge ke liye A dabaiye.\n");
+			printf("Top-up Recharge ke liye B dabaiye.\n");
+			printf("Special Recharge ke liye C dabaiye.\n");
+
+			printf("Apni Choice Bataye : ");
+
+			fflush(stdin);
+
+			scanf("%c",&hn);
+
+			switch(hn) {
+				case 'A':
+				case 'a':
+				clrscr();
+				printf("Aapne Safaltapurvak Internet Recharge kar liye he.");
+				break;
+
+				case 'B':
+				case 'b':
+				clrscr();
+				printf("Aapne Safaltapurvak Top-up Recharge kar liye he");
+				break;
+
+				case 'C':
+				case 'c':
+				clrscr();
+				printf("Aapne Safaltapurvak Special Recharge kar liye he.");
+				break;
+
+				default:
+				printf("Aapne Galat Choice ki hai.");
+			}
+
+			break;
+
+		case 3:
+			clrscr();
+			printf("\n\nGujarati\n\n");
+
+			printf("Internet Recharge mate A dabavo.\n");
+			printf("Top-up Recharge mate B dabavo.\n");
+			printf("Special Recharge mate C dabavo.\n");
+
+			printf("Tamari Choice Lakho : ");
+
+			fflush(stdin);
+
+			scanf("%c",&guj);
+
+			switch(guj) {
+				case 'A':
+				case 'a':
+					clrscr();
+					printf("Tame Safaltapurvak Internet Recharge Karyu Che");
+					break;
+
+				case 'B':
+				case 'b':
+					clrscr();
+					printf("Tame Safaltapurvak Top-up Recharge Karyu Che");
+					break;
+
+				case 'C':
+				case 'c':
+					clrscr();
+					printf("Tame Safaltapurvak Special Recharge Karyu Che");
+					break;
+
+				default:
+					printf("Tamari Choice Khoti Che.");
+			}
+			break;
+
+		default:
+			clrscr();
+			printf("Invalid Choice");
+	}
+
+	getch();
+}
