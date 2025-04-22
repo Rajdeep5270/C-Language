@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+main() {
+	int fy, sy;
+	clrscr();
+
+	printf("Enter Starting Year : ");
+	scanf("%d",&fy);
+
+	printf("Enter Ending Year : ");
+	scanf("%d",&sy);
+
+	while(fy <= sy) {
+		if(fy%4==0) {
+			printf("%d\t",fy);
+		}
+		fy++;
+	}
+
+	getch();
+}
