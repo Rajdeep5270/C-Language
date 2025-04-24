@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+
+main() {
+	int n, temp, rem, rev = 0;
+	clrscr();
+
+	printf("Enter Any Numer : ");
+	scanf("%d",&n);
+
+	temp = n;
+
+	do{
+		rem = n % 10;
+		rev = rev * 10 + rem;
+		n = n / 10;
+	}while(n != 0);
+
+	if(temp == rev) {
+		printf("Its a Palindrom.\n");
+	}
+	else{
+		printf("Its not a Palindrom.\n");
+	}
+
+	getch();
+}
