@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+
+main() {
+	int n, temp, rem, sum = 0, mul;
+	clrscr();
+
+	printf("Armstrong Number Checker Program.");
+	printf("Enter Any Number : ");
+	scanf("%d",&n);
+
+	temp = n;
+
+	while(n != 0) {
+		rem = n % 10;
+		mul = rem * rem * rem;
+		sum += mul;
+		n = n / 10;
+	}
+
+	if(sum == temp) {
+		clrscr();
+		printf("Armstrong Number.");
+	}
+	else{
+		clrscr();
+		printf("Not an Armstrong Number.");
+	}
+
+	getch();
+}
