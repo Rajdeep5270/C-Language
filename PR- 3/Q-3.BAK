@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+
+main() {
+	int n, last, first, temp;
+	clrscr();
+
+	printf("Write Any Number : ");
+	scanf("%d",&n);
+
+	temp = n;
+
+	last = n % 10;
+
+	while(temp > 9) {
+		first = temp / 10;
+	}
+
+	n = last + first;
+
+	printf("Sum = %d",n);
+
+	getch();
+}

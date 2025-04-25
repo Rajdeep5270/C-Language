@@ -2,6 +2,7 @@
     "files.associations": {
         "REVERSE.C": "cpp",
         "ARMSTRON.C": "cpp",
-        "MAGIC.C": "cpp"
+        "MAGIC.C": "cpp",
+        "FIBONACC.C": "cpp"
     }
 }
