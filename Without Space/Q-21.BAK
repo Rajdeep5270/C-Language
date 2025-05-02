@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+
+main() {
+	char i, j;
+	clrscr();
+
+	for() {
+
+		for() {
+
+		}
+
+	}
+
+	getch();
+}
