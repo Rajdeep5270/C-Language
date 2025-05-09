@@ -5,37 +5,51 @@ Below are the seven generated output images from the C Pattern program.
 ---
 
 ## 🔢 Output 1  
-📁 **Path**: `[output_images/image1.png](https://github.com/Rajdeep5270/C-Language/blob/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-1.png)`
+![Output 1](https://raw.githubusercontent.com/Rajdeep5270/C-Language/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-1.png)
+
+📁 **Path**: `output_images/image1.png`
 
 ---
 
 ## 🔢 Output 2  
-📁 **Path**: `[output_images/image2.png](https://github.com/Rajdeep5270/C-Language/blob/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-2.png)`
+![Output 2](https://raw.githubusercontent.com/Rajdeep5270/C-Language/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-2.png)
+
+📁 **Path**: `output_images/image2.png`
 
 ---
 
 ## 🔢 Output 3  
-📁 **Path**: `[output_images/image3.png](https://github.com/Rajdeep5270/C-Language/blob/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-3.png)`
+![Output 3](https://raw.githubusercontent.com/Rajdeep5270/C-Language/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-3.png)
+
+📁 **Path**: `output_images/image3.png`
 
 ---
 
 ## 🔢 Output 4  
-📁 **Path**: `[output_images/image4.png](https://github.com/Rajdeep5270/C-Language/blob/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-4.png)`
+![Output 4](https://raw.githubusercontent.com/Rajdeep5270/C-Language/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-4.png)
+
+📁 **Path**: `output_images/image4.png`
 
 ---
 
 ## 🔢 Output 5  
-📁 **Path**: `[output_images/image5.png](https://github.com/Rajdeep5270/C-Language/blob/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-5.png)`
+![Output 5](https://raw.githubusercontent.com/Rajdeep5270/C-Language/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-5.png)
+
+📁 **Path**: `output_images/image5.png`
 
 ---
 
 ## 🔢 Output 6  
-📁 **Path**: `[output_images/image6.png](https://github.com/Rajdeep5270/C-Language/blob/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-6.png)`
+![Output 6](https://raw.githubusercontent.com/Rajdeep5270/C-Language/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-6.png)
+
+📁 **Path**: `output_images/image6.png`
 
 ---
 
 ## 🔢 Output 7  
-📁 **Path**: `[output_images/image7.png](https://github.com/Rajdeep5270/C-Language/blob/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-7.png)`
+![Output 7](https://raw.githubusercontent.com/Rajdeep5270/C-Language/3859e2b661da6897af17fc20f099448d9eed33ed/PR-%204/q-7.png)
+
+📁 **Path**: `output_images/image7.png`
 
 ---
 
