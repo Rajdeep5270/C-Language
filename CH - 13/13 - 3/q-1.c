@@ -1,19 +1,26 @@
 #include<stdio.h>
 
 main() {
+    int row , col;
 
-    int a[3][3];
+    printf("Enter Row Size : ");
+    scanf("%d",&row);
+    printf("Enter Col Size : ");
+    scanf("%d",&col);
 
-    a[0][0] = 2;
-    a[0][1] = 4;
-    a[0][2] = 1;
-    a[1][0] = 3;
-    a[1][1] = 5;
-    a[1][2] = 4;
-    a[2][0] = 8;
-    a[2][1] = 2;
-    a[2][2] = 6;
+    int a[row][col];
 
+    printf("\n\nEnter Values of Elements\n\n");
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+            printf("Enter Values of Elements [%d][%d] : ",i,j);
+            scanf("%d",&a[i][j]);
+        }
+        printf("\n");
+    }
+    
     int sum = 0;
     for (int i = 0; i < 3; i++)
     {
@@ -26,6 +33,5 @@ main() {
 
     printf("The Sum of Array is : %d\n",sum);
     
-    float avg = sum / 9;
-    printf("The Average of Array is : %.2f",avg);
+    printf("The Average of Array is : %.2f",(float)sum / (row * col));
 }
