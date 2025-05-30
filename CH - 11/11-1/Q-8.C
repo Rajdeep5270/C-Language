@@ -3,7 +3,6 @@
 
 main() {
 	int i, j, count = 1;
-	clrscr();
 
 	for(i = 1; i <= 5; i++) {
 
@@ -13,5 +12,4 @@ main() {
 		printf("\n");
 	}
 
-	getch();
 }
