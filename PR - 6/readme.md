@@ -1,4 +1,4 @@
-# 🎨 C Array Output Images
+# 🎨 C String Output Images
 
 Below are the Three generated output images from the C String program.
 
