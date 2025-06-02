@@ -1,6 +1,6 @@
 # 🎨 C Array Output Images
 
-Below are the Four generated output images from the C Array program.
+Below are the Three generated output images from the C String program.
 
 ---
 
@@ -12,7 +12,7 @@ Below are the Four generated output images from the C Array program.
 ---
 
 ## 🔢 Output 2  
-![Question 1][(https://raw.githubusercontent.com/Rajdeep5270/C-Language/master/PR%20-%205/q-1.png)](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%206/palindrom.png](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%206/not_palindrom.png))
+![Question 1][(https://raw.githubusercontent.com/Rajdeep5270/C-Language/master/PR%20-%205/q-1.png)](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%206/palindrom.png](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%206/not_palindrom.png))](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%206/not_palindrom.png)
 
 📁 **Path**: `E:\C LANGUAGE\PR - 6\not_palindrom.png`
 
