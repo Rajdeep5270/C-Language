@@ -36,7 +36,7 @@ main() {
     int sumCol = 0;
     printf("Enter Column Number 0 to %d: ",col-1);
     scanf("%d",&c_num);
-    for (int i = 0; i < col; i++)
+    for (int i = 0; i < row; i++)
     {
         sumCol += a[i][c_num];
     }
