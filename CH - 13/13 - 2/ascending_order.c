@@ -21,7 +21,7 @@ main() {
                 a[j] = n;
             }
         }
-
+        
     }
 
     printf("\n\n Ascending Order \n\n");
