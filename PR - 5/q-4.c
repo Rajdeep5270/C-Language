@@ -40,6 +40,6 @@ main() {
     {
         sumCol += a[i][c_num];
     }
-    printf("The Sum of Row = %d",sumCol);
+    printf("The Sum of Column = %d",sumCol);
     
 }
