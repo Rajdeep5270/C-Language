@@ -16,11 +16,11 @@ The main file includes a separate functions file located in the folder **`E:\C L
 
 ### Input
 
-![Input Screenshot]([path/to/your/input_screenshot.png](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%207/1.png))
+![Input Screenshot](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%207/1.png)
 
 ### Output
 
-![Output Screenshot]([path/to/your/output_screenshot.png](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%207/2.png))
+![Output Screenshot](https://github.com/Rajdeep5270/C-Language/blob/master/PR%20-%207/2.png)
 
 ---
 
