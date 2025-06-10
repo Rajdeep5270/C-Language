@@ -22,3 +22,25 @@ void sumArray(int a[], int size) {
     printf("Sum of Elements of Array = %d",sum);
     
 }
+
+// string length funciton 
+
+void lengthCalculator(char name[]) {
+
+    printf("Enter Your Name : ");
+    gets(name);
+
+    int length = 0;
+    for (int i = 0; name[i] != '\0'; i++)
+    {
+        if (name[i] == ' ')
+        {
+            continue;
+        }
+        length++;
+        
+    }
+
+    printf("The Length of %s is %d",name , length);
+
+}
