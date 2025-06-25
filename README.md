@@ -3,8 +3,6 @@
 Welcome to my C language code repository! 🚀  
 This repo contains a collection of C programs and projects that I’ve worked on while learning and practicing the C programming language.
 
-## 📁 Folder Structure
-
 
 ## 🛠 Technologies Used
 
